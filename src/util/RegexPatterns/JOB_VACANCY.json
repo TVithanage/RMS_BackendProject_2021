@@ -1,0 +1,43 @@
+[
+  {
+    "regex": "^[\\w\\s]{5,200}$",
+    "attribute": "title",
+    "error": "Please provide a valid job title!."
+  },
+  {
+    "regex": "^[\\w\\s]{5,200}$",
+    "attribute": "position",
+    "error": "Please provide a valid job position!."
+  },
+  {
+    "regex": "^[\\w\\s\\d\\,\\\\\\.\\n\\/]{10,100}$",
+    "attribute": "description",
+    "error": "Please provide a valid description!.",
+    "optional": true
+  },
+  {
+    "regex": "^[\\w\\s]{5,200}$",
+    "attribute": "location",
+    "error": "Please provide a valid location!."
+  },
+  {
+    "regex": "^[\\d]+$",
+    "attribute": "departmentId",
+    "error": "Please select a valid department!."
+  },
+  {
+    "regex": "^[\\d]+$",
+    "attribute": "jobCategoryId",
+    "error": "Please select a valid job category!."
+  },
+  {
+    "regex": "^[\\d]+$",
+    "attribute": "jobVacancyStatusId",
+    "error": "Please select a valid job vacancy status!."
+  },
+  {
+    "regex": "^(\\d{4})-(\\d{2})-(\\d{2})$",
+    "attribute": "addedDate",
+    "error": "Please select a valid date of assignment!."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "regex": "^[\\w\\s]{2,100}$",
+    "attribute": "name",
+    "error": "Please provide a valid department name!."
+  },
+  {
+    "regex": "^[\\w\\s\\d\\,\\\\\\.\\n\\/]{5,200}$",
+    "attribute": "description",
+    "error": "Please provide a valid description!.",
+    "optional": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "regex": "^[\\w\\d]{5,15}$",
+    "attribute": "username",
+    "error": "Please provide a valid username!."
+  },
+  {
+    "regex": "^[\\w\\s\\d]{5,100}$",
+    "attribute": "password",
+    "error": "Please provide a valid password!."
+  },
+  {
+    "regex": "^[\\d,]+$",
+    "attribute": "roleIds",
+    "error": "Please select a valid role!."
+  },
+  {
+    "regex": "^[\\d]+$",
+    "attribute": "userStatusId",
+    "error": "Please select a valid user status!."
+  },
+  {
+    "regex": "^.+(jpg|png|gif)$",
+    "attribute": "photo",
+    "error": "Please select a valid profile picture!.",
+    "base64": true
+  },
+  {
+    "regex": "^[\\d]{10}$",
+    "attribute": "mobile",
+    "error": "Please provide a valid mobile number!."
+  },
+  {
+    "regex": "^\\S+@\\S+\\.\\S+$",
+    "attribute": "email",
+    "error": "Please provide an valid email!."
+  }
+]

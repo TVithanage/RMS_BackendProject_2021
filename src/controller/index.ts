@@ -1,0 +1,12 @@
+export { AuthController } from "./AuthController";
+export { UserController } from "./UserController";
+export { PrivilegeController } from "./PrivilegeController";
+export { GeneralController } from "./GeneralController";
+export { RoleController } from "./RoleController";
+export { ProfileController } from "./ProfileController";
+export { FileUploadController } from "./FileUploadController";
+export { CandidateProfileController } from "./CandidateProfileController";
+export { JobCategoryController } from "./JobCategoryController";
+export { DepartmentController } from "./DepartmentController";
+export { JobVacancyController } from "./JobVacancyController";
+export { CandidateProfileReviewController } from "./CandidateProfileReviewController";

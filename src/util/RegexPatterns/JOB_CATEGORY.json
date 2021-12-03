@@ -1,0 +1,13 @@
+[
+  {
+    "regex": "^[\\w\\s]{5,100}$",
+    "attribute": "name",
+    "error": "Please provide a valid job category name!."
+  },
+  {
+    "regex": "^[\\w\\s\\d\\,\\\\\\.\\n\\/]{10,200}$",
+    "attribute": "description",
+    "error": "Please provide a valid description!.",
+    "optional": true
+  }
+]

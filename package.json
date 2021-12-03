@@ -1,0 +1,29 @@
+{
+   "name": "MyProject",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.10.59",
+      "nodemon": "^2.0.3",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "dotenv": "^8.2.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "express-fileupload": "^1.2.1",
+      "express-session": "^1.17.0",
+      "moment": "^2.29.1",
+      "mysql": "^2.14.1",
+      "node-fetch": "^2.6.1",
+      "nodemailer": "^6.5.0",
+      "reflect-metadata": "^0.1.10",
+      "twilio": "^3.59.0",
+      "typeorm": "^0.2.24"
+   },
+   "scripts": {
+      "start": "ts-node src/server.ts",
+      "build": "tsc -p ."
+   }
+}
